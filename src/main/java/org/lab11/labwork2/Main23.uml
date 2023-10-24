@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.lab11.labwork2.Main23</OriginalElement>
+  <nodes>
+    <node x="20.250925925925912" y="348.0">org.lab11.labwork2.Main23</node>
+    <node x="66.19907407407402" y="53.5">org.lab11.labwork2.If2</node>
+    <node x="-82.80092592592598" y="47.0">org.lab11.labwork2.If3</node>
+    <node x="6.699074074074019" y="169.0">org.lab11.labwork2.Cl2</node>
+    <node x="-151.80092592592598" y="157.0">org.lab11.labwork2.Cl3</node>
+    <node x="227.26851851851848" y="53.5">org.lab11.labwork2.If1</node>
+    <node x="271.8759259259259" y="250.0">org.lab11.labwork2.Cl1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.lab11.labwork2.Cl3" target="org.lab11.labwork2.If3" relationship="REALIZATION">
+      <point x="0.0" y="-68.0" />
+      <point x="-87.30092592592598" y="133.5" />
+      <point x="-18.30092592592598" y="133.5" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="org.lab11.labwork2.If3" target="org.lab11.labwork2.If1" relationship="INTERFACE_GENERALIZATION">
+      <point x="-7.407407401771593E-5" y="-31.5" />
+      <point x="-18.301" y="29.5" />
+      <point x="212.0" y="29.5" />
+      <point x="212.0" y="85.0" />
+      <point x="-63.49951851851847" y="0.0" />
+    </edge>
+    <edge source="org.lab11.labwork2.If2" target="org.lab11.labwork2.If1" relationship="INTERFACE_GENERALIZATION">
+      <point x="64.499925925926" y="0.0" />
+      <point x="-63.49951851851847" y="0.0" />
+    </edge>
+    <edge source="org.lab11.labwork2.Main23" target="org.lab11.labwork2.Cl3" relationship="CREATE">
+      <point x="-83.0" y="0.0" />
+      <point x="-87.30092592592598" y="392.0" />
+      <point x="0.0" y="68.0" />
+    </edge>
+    <edge source="org.lab11.labwork2.Cl1" target="org.lab11.labwork2.If1" relationship="TO_ONE">
+      <point x="0.0" y="-44.0" />
+      <point x="44.607407407407436" y="31.5" />
+    </edge>
+    <edge source="org.lab11.labwork2.Cl1" target="org.lab11.labwork2.If2" relationship="TO_ONE">
+      <point x="-63.5" y="-20.5" />
+      <point x="145.19907407407402" y="273.5" />
+      <point x="14.5" y="31.5" />
+    </edge>
+    <edge source="org.lab11.labwork2.Main23" target="org.lab11.labwork2.Cl1" relationship="CREATE">
+      <point x="83.0" y="0.0" />
+      <point x="335.3759259259259" y="392.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="org.lab11.labwork2.Cl3" target="org.lab11.labwork2.Cl2" relationship="GENERALIZATION">
+      <point x="64.5" y="15.0" />
+      <point x="21.69907407407402" y="240.0" />
+      <point x="21.69907407407402" y="233.0" />
+      <point x="-64.5" y="8.0" />
+    </edge>
+    <edge source="org.lab11.labwork2.Main23" target="org.lab11.labwork2.Cl2" relationship="CREATE">
+      <point x="-32.05185185185189" y="-44.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="org.lab11.labwork2.Cl1" target="org.lab11.labwork2.If1" relationship="REALIZATION">
+      <point x="-44.607407407407436" y="-44.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="org.lab11.labwork2.Cl2" target="org.lab11.labwork2.If2" relationship="REALIZATION">
+      <point x="-15.0" y="-56.0" />
+      <point x="56.19907407407402" y="146.25" />
+      <point x="115.69907407407402" y="146.25" />
+      <point x="-15.0" y="31.5" />
+    </edge>
+    <edge source="org.lab11.labwork2.Cl2" target="org.lab11.labwork2.Cl3" relationship="TO_ONE">
+      <point x="-64.5" y="-7.0" />
+      <point x="21.69907407407402" y="218.0" />
+      <point x="21.69907407407402" y="225.0" />
+      <point x="64.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="213.0" y="303.0" />
+  <SelectedNodes>
+    <node>org.lab11.labwork2.Main23</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

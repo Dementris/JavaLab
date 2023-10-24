@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.lab11.labwork2","l":"Cl1"},{"p":"org.lab11.labwork2","l":"Cl2"},{"p":"org.lab11.labwork2","l":"Cl3"},{"p":"org.lab11.labwork2","l":"If1"},{"p":"org.lab11.labwork2","l":"If2"},{"p":"org.lab11.labwork2","l":"If3"},{"p":"org.lab11.labwork2","l":"Main23"}];updateSearchResults();
