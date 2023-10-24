@@ -5,7 +5,7 @@
 Спочатку склонуйте репозиторій з відповідним проектом на ваш комп'ютер:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/Dementris/JavaLab
 ```
 Потім перейдіть в каталог проекту:
 
