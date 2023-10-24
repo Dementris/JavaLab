@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.lab11.labwork3.GraphicElement</OriginalElement>
+  <nodes>
+    <node x="157.81756756756766" y="-103.19644202086872">org.lab11.labwork3.RenderEngine</node>
+    <node x="-130.0" y="119.0">org.lab11.labwork3.GraphicElement</node>
+    <node x="-31.643448918225715" y="402.30874431409796">org.lab11.labwork3.VectorEditor</node>
+    <node x="152.1058558558559" y="119.0">org.lab11.labwork3.ElementDecorator</node>
+    <node x="171.0504602255719" y="368.0">org.lab11.labwork3.ChangedColorEl</node>
+    <node x="455.74436936936945" y="380.0">org.lab11.labwork3.CentreGrElement</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.lab11.labwork3.VectorEditor" target="org.lab11.labwork3.ChangedColorEl" relationship="CREATE">
+      <point x="83.0" y="-22.308744314097964" />
+      <point x="-124.0" y="0.0" />
+    </edge>
+    <edge source="org.lab11.labwork3.VectorEditor" target="org.lab11.labwork3.RenderEngine" relationship="DEPENDENCY">
+      <point x="4.489182257145785E-4" y="-43.99974431409794" />
+      <point x="51.357" y="352.0" />
+      <point x="129.5" y="352.0" />
+      <point x="129.5" y="-23.196" />
+      <point x="-93.99956756756765" y="4.4202086871436563E-4" />
+    </edge>
+    <edge source="org.lab11.labwork3.CentreGrElement" target="org.lab11.labwork3.ElementDecorator" relationship="GENERALIZATION">
+      <point x="-63.5" y="-44.0" />
+      <point x="519.2443693693695" y="346.0" />
+      <point x="281.6058558558559" y="346.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="org.lab11.labwork3.ElementDecorator" target="org.lab11.labwork3.RenderEngine" relationship="REALIZATION">
+      <point x="1.441441440874769E-4" y="-92.5" />
+      <point x="281.606" y="80.0" />
+      <point x="251.818" y="80.0" />
+      <point x="4.324324323476958E-4" y="80.00044202086872" />
+    </edge>
+    <edge source="org.lab11.labwork3.ElementDecorator" target="org.lab11.labwork3.RenderEngine" relationship="TO_ONE">
+      <point x="15.000144144144087" y="-92.5" />
+      <point x="44.78843243243233" y="80.0" />
+    </edge>
+    <edge source="org.lab11.labwork3.ChangedColorEl" target="org.lab11.labwork3.RenderEngine" relationship="DEPENDENCY">
+      <point x="-70.33446022557189" y="-56.0" />
+      <point x="224.716" y="352.0" />
+      <point x="129.5" y="352.0" />
+      <point x="129.5" y="-23.196" />
+      <point x="-93.99956756756765" y="4.4202086871436563E-4" />
+    </edge>
+    <edge source="org.lab11.labwork3.ChangedColorEl" target="org.lab11.labwork3.ElementDecorator" relationship="GENERALIZATION">
+      <point x="-55.33495553438223" y="-56.0" />
+      <point x="239.71550469118966" y="336.0" />
+      <point x="266.6058558558559" y="336.0" />
+      <point x="-15.0" y="92.5" />
+    </edge>
+    <edge source="org.lab11.labwork3.GraphicElement" target="org.lab11.labwork3.RenderEngine" relationship="REALIZATION">
+      <point x="0.0" y="-92.5" />
+      <point x="-9.0" y="80.0" />
+      <point x="251.818" y="80.0" />
+      <point x="4.324324323476958E-4" y="80.00044202086872" />
+    </edge>
+    <edge source="org.lab11.labwork3.CentreGrElement" target="org.lab11.labwork3.RenderEngine" relationship="DEPENDENCY">
+      <point x="-3.693693694231115E-4" y="-44.0" />
+      <point x="582.744" y="101.5" />
+      <point x="129.5" y="101.5" />
+      <point x="129.5" y="-23.196" />
+      <point x="-93.99956756756765" y="4.4202086871436563E-4" />
+    </edge>
+    <edge source="org.lab11.labwork3.VectorEditor" target="org.lab11.labwork3.CentreGrElement" relationship="CREATE">
+      <point x="15.0" y="-44.0" />
+      <point x="66.35655108177428" y="505.0" />
+      <point x="515.0" y="505.0" />
+      <point x="-67.74436936936945" y="44.0" />
+    </edge>
+    <edge source="org.lab11.labwork3.ChangedColorEl" target="org.lab11.labwork3.ChangedColorEl" relationship="DEPENDENCY">
+      <point x="0.0" y="56.0" />
+      <point x="295.0504602255719" y="493.30874431409796" />
+      <point x="422.0504602255719" y="493.30874431409796" />
+      <point x="422.0504602255719" y="471.0" />
+      <point x="124.0" y="47.0" />
+    </edge>
+    <edge source="org.lab11.labwork3.VectorEditor" target="org.lab11.labwork3.GraphicElement" relationship="CREATE">
+      <point x="-83.0" y="15.0" />
+      <point x="6.0" y="461.30874431409796" />
+      <point x="15.0" y="92.5" />
+    </edge>
+    <edge source="org.lab11.labwork3.GraphicElement" target="org.lab11.labwork3.GraphicElement" relationship="DEPENDENCY">
+      <point x="-0.0" y="92.5" />
+      <point x="-9.0" y="375.5" />
+      <point x="-147.5" y="375.5" />
+      <point x="-147.5" y="211.5" />
+      <point x="-121.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9807342580415096" showDependencies="true" x="256.0391144196093" y="395.63417738607217" />
+  <SelectedNodes>
+    <node>org.lab11.labwork3.RenderEngine</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
