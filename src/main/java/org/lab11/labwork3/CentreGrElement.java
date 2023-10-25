@@ -13,10 +13,19 @@ public class CentreGrElement extends ElementDecorator{
      */
     public CentreGrElement(RenderEngine engine) {
         super(engine);
+        center();
+        render();
+    }
+
+    public void center() {
+        engine.setPosy(0);
+        engine.setPosx(0);
+        System.out.println("Move element to centre");
     }
 
     @Override
     public void render() {
-        System.out.println("Method render() to render element +  Move element to centre");
+        super.render();
+
     }
 }

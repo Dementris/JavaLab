@@ -13,8 +13,6 @@ public class VectorEditor {
         RenderEngine element1 = new GraphicElement(1,1,"#0000");
         element1.render();
         element1 = new CentreGrElement(element1);
-        element1.render();
-        element1 = new ChangedColorEl(element1);
-        element1.render();
+        element1 = new ChangedColorEl(element1,"#2542");
     }
 }
