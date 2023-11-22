@@ -25,9 +25,6 @@ public class GUI {
         icons.add(iconFactory.createIconByName("1"));
         icons.add(iconFactory.createIconByName("2"));
 
-        for (Icon icon: icons){
-            icon.draw();
-        }
         for (Directory directory: directories){
             directory.draw();
         }

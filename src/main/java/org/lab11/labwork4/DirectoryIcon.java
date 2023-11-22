@@ -42,10 +42,9 @@ public class DirectoryIcon  implements Directory{
 
     @Override
     public void printItems() {
-        System.out.print("Print elements in "+name+"directory [");
+        System.out.println("Draw elements in "+name+"directory [");
         for (Icon icon:fileIconArrayList){
-            System.out.print("file icon name:"+icon.getName()+", ");
+            icon.draw();
         }
-        System.out.println("\b\b]");
     }
 }
