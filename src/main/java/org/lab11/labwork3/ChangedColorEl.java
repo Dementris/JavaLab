@@ -12,8 +12,12 @@ public class ChangedColorEl extends ElementDecorator {
      *
      * @param engine the engine
      */
-    public ChangedColorEl(RenderEngine engine) {
+    String color;
+    public ChangedColorEl(RenderEngine engine, String color) {
         super(engine);
+        this.color = color;
+        changeCol(color);
+        render();
     }
 
     /**
@@ -30,6 +34,6 @@ public class ChangedColorEl extends ElementDecorator {
     @Override
     public void render() {
         System.out.println("Method render() render element and change color to "
-                +changeCol("#3673F"));
+                +color);
     }
 }

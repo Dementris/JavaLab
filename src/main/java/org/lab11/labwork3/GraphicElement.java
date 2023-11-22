@@ -8,8 +8,8 @@ package org.lab11.labwork3;
  *
  */
 public class GraphicElement implements RenderEngine{
-    private final int posx;
-    private final int posy;
+    private int posx;
+    private int posy;
 
     private String colorScheme;
 
@@ -45,7 +45,14 @@ public class GraphicElement implements RenderEngine{
     public String setColor(String color) {
         return this.colorScheme = color;
     }
-
+    @Override
+    public void setPosx(int posx) {
+        this.posx = posx;
+    }
+    @Override
+    public void setPosy(int posy) {
+        this.posy = posy;
+    }
 
     @Override
     public void render() {

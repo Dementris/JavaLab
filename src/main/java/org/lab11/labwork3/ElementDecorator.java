@@ -41,6 +41,16 @@ public class ElementDecorator implements RenderEngine{
     }
 
     @Override
+    public void setPosy(int posy) {
+        engine.setPosy(posy);
+    }
+
+    @Override
+    public void setPosx(int posy) {
+        engine.setPosx(posy);
+    }
+
+    @Override
     public void render() {
         engine.render();
     }

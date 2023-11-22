@@ -33,7 +33,8 @@ public interface RenderEngine {
      * @return the color
      */
     public String setColor(String i);
-
+    public void setPosy(int posy);
+    public void setPosx(int posy);
     /**
      * Method render() render element.
      */
