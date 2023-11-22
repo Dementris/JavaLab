@@ -3,7 +3,7 @@ package org.lab11.labwork5;
 /**
  * The Main class.
  */
-public class Test52 {
+public class Test5 {
     /**
      * The entry point of application.
      *

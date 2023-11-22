@@ -30,7 +30,7 @@ java -classpath target/classes org.lab11.labwork4.GUI
 ```
 
 ### UML Діаграма
-![VectorEditor](Test52.png)
+![VectorEditor](Test5.png)
 
 
 
